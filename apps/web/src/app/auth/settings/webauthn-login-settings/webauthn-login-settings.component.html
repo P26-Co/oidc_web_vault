@@ -23,12 +23,13 @@
     <i class="bwi bwi-spinner bwi-spin tw-ml-1" aria-hidden="true"></i>
   </ng-container>
 </h2>
-<p bitTypography="body1">
+<!-- temp-comment: p26 -->
+<!-- <p bitTypography="body1">
   {{ "loginWithPasskeyInfo" | i18n }}
   <a bitLink href="https://bitwarden.com/help/login-with-passkeys">{{
     "learnMoreAboutPasswordless" | i18n
   }}</a>
-</p>
+</p> -->
 
 <table *ngIf="hasCredentials" class="tw-mb-5">
   <tr *ngFor="let credential of credentials">

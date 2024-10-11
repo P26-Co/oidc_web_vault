@@ -249,7 +249,8 @@
     <div aria-labelledby="usernameTypeHeading" class="form-group" role="radiogroup">
       <div class="d-block">
         <label id="usernameTypeHeading">{{ "usernameType" | i18n }}</label>
-        <a
+        <!-- temp-comment: p26 -->
+        <!-- <a
           class="ml-auto"
           href="https://bitwarden.com/help/generator/#username-types"
           target="_blank"
@@ -257,7 +258,7 @@
           appA11yTitle="{{ 'learnMore' | i18n }}"
         >
           <i class="bwi bwi-question-circle" aria-hidden="true"></i>
-        </a>
+        </a> -->
       </div>
       <div class="form-check" *ngFor="let o of usernameTypeOptions">
         <input

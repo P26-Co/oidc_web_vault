@@ -48,7 +48,8 @@
       </bit-radio-group>
     </ng-container>
     <bit-form-field>
-      <bit-label
+      <!-- temp-comment: p26 -->
+      <!-- <bit-label
         >{{ "language" | i18n }}
         <a
           bitLink
@@ -61,7 +62,7 @@
         >
           <i class="bwi bwi-question-circle" aria-hidden="true"></i>
         </a>
-      </bit-label>
+      </bit-label> -->
       <bit-select formControlName="locale" id="locale">
         <bit-option *ngFor="let o of localeOptions" [value]="o.value" [label]="o.name"></bit-option>
       </bit-select>
@@ -69,7 +70,8 @@
     </bit-form-field>
     <bit-form-control>
       <input type="checkbox" bitCheckbox formControlName="enableFavicons" />
-      <bit-label
+      <!-- temp-comment: p26 -->
+      <!-- <bit-label
         >{{ "enableFavicon" | i18n }}
         <a
           bitLink
@@ -81,7 +83,7 @@
         >
           <i class="bwi bwi-question-circle" aria-hidden="true"></i>
         </a>
-      </bit-label>
+      </bit-label> -->
       <bit-hint>{{ "faviconDesc" | i18n }}</bit-hint>
     </bit-form-control>
     <bit-form-field>

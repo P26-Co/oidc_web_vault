@@ -25,7 +25,8 @@
         <span [ngClass]="{ 'tw-text-danger': showAsExpired }">{{
           "subscriptionExpiration" | i18n
         }}</span>
-        <a
+        <!-- temp-comment: p26 -->
+        <!-- <a
           href="https://bitwarden.com/help/licensing-on-premise/#update-organization-license"
           target="_blank"
           [appA11yTitle]="'licensePaidFeaturesHelp' | i18n"
@@ -33,7 +34,7 @@
         >
           <i class="bwi bwi-question-circle" aria-hidden="true"></i>
           <span class="tw-sr-only">{{ "licensePaidFeaturesHelp" | i18n }}</span>
-        </a>
+        </a> -->
       </dt>
       <dd *ngIf="subscription.hasExpiration" [ngClass]="{ 'tw-text-danger': showAsExpired }">
         {{
@@ -78,7 +79,8 @@
         >
           <bit-label
             >{{ "automaticSync" | i18n }}
-            <a
+            <!-- temp-comment: p26 -->
+            <!-- <a
               href="https://bitwarden.com/help/families-for-enterprise-self-hosted/"
               target="_blank"
               rel="noreferrer"
@@ -87,7 +89,7 @@
             >
               <i class="bwi bwi-question-circle" aria-hidden="true"></i>
               <span class="tw-sr-only">{{ "billingSyncHelp" | i18n }}</span>
-            </a>
+            </a> -->
           </bit-label>
           <bit-hint>
             {{ "billingSyncDesc" | i18n }}
