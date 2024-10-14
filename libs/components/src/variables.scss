@@ -1,9 +1,9 @@
 $dark-icon-themes: "theme_dark";
 
-$primary: #175ddc;
-$primary-accent: #1252a3;
-$secondary: #ced4da;
-$secondary-alt: #1a3b66;
+$primary: #7e17de;
+$primary-accent: #5012a1;
+$secondary: #d2ceda;
+$secondary-alt: #3b1a65;
 $success: #017e45;
 $info: #555555;
 $warning: #8b6609;
@@ -124,7 +124,7 @@ $themes: (
     badgePrimaryBackground: $primary,
     badgePrimaryBackgroundHover: #134eb9,
     badgePrimaryText: $white,
-    badgeSecondaryBackground: #ced4da,
+    badgeSecondaryBackground: #d2ceda,
     badgeSecondaryText: #212529,
     bgLightColor: #f8f9fa,
     bgPrimaryColor: $primary,
@@ -138,20 +138,20 @@ $themes: (
     btnLinkTextHover: #104097,
     btnOutlineDangerBackground: $input-bg,
     btnOutlineDangerBackgroundHover: $danger,
-    btnOutlineDangerBorder: #ced4da,
+    btnOutlineDangerBorder: #d2ceda,
     btnOutlineDangerBorderHover: $danger,
     btnOutlineDangerText: $danger,
     btnOutlineDangerTextHover: $white,
     btnOutlinePrimaryBackground: $input-bg,
     btnOutlinePrimaryBackgroundHover: $primary,
-    btnOutlinePrimaryBorder: #ced4da,
+    btnOutlinePrimaryBorder: #d2ceda,
     btnOutlinePrimaryBorderHover: $primary,
     btnOutlinePrimaryText: $primary,
     btnOutlinePrimaryTextHover: $white,
     btnOutlineSecondaryBackground: $input-bg,
-    btnOutlineSecondaryBackgroundHover: #ced4da,
-    btnOutlineSecondaryBorder: #ced4da,
-    btnOutlineSecondaryBorderHover: #ced4da,
+    btnOutlineSecondaryBackgroundHover: #d2ceda,
+    btnOutlineSecondaryBorder: #d2ceda,
+    btnOutlineSecondaryBorderHover: #d2ceda,
     btnOutlineSecondaryText: #6c757d,
     btnOutlineSecondaryTextHover: #333333,
     btnPrimary: $primary,

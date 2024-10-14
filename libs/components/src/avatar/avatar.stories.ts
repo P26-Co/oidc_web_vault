@@ -22,7 +22,7 @@ type Story = StoryObj<AvatarComponent>;
 
 export const Default: Story = {
   args: {
-    color: "#175ddc",
+    color: "#7e17de",
   },
 };
 

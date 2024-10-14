@@ -1,7 +1,7 @@
 import { svgIcon } from "@bitwarden/components";
 
 export const LockIcon = svgIcon`
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" fill="none">
+  <svg xmlns="http://www.w3.org/2000/svg" height="10rem" viewBox="0 0 120 100" fill="none">
     <path class="tw-fill-text-headers" fill-rule="evenodd" d="M27.5 48.218a9 9 0 0 1 9-9h47a9 9 0 0 1 9 9v7.5h-2v-7.5a7 7 0 0 0-7-7h-47a7 7 0 0 0-7 7v7.5h-2v-7.5Zm2 30.75v3.75a7 7 0 0 0 7 7h47a7 7 0 0 0 7-7v-3.75h2v3.75a9 9 0 0 1-9 9h-47a9 9 0 0 1-9-9v-3.75h2Z" clip-rule="evenodd"/>
     <path class="tw-fill-text-headers" fill-rule="evenodd" d="M60 10.718c-11.144 0-20 7.942-20 17.414v11.586h-2V28.132C38 17.317 48.007 8.718 60 8.718c11.991 0 22 8.552 22 19.414v11.586h-2V28.132c0-9.516-8.855-17.414-20-17.414ZM32.028 61.28a1 1 0 0 1 1 1v5.678a1 1 0 1 1-2 0v-5.679a1 1 0 0 1 1-1Z" clip-rule="evenodd"/>
     <path class="tw-fill-text-headers" fill-rule="evenodd" d="M38.452 65.897a1 1 0 0 1-.647 1.258l-5.472 1.755a1 1 0 1 1-.61-1.904l5.471-1.755a1 1 0 0 1 1.258.646Z" clip-rule="evenodd"/>
