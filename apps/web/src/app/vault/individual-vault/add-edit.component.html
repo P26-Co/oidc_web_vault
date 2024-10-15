@@ -899,6 +899,7 @@
               <input
                 class="form-check-input"
                 type="checkbox"
+                bitCheckbox
                 [(ngModel)]="$any(c).checked"
                 id="collection-{{ i }}"
                 name="Collection[{{ i }}].Checked"
@@ -942,6 +943,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              bitCheckbox
               [ngModel]="reprompt"
               (change)="repromptChanged()"
               id="passwordPrompt"

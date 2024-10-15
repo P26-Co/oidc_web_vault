@@ -73,12 +73,12 @@ app-sponsored-families {
   &.cnetcmpgnteams,
   &.cnetcmpgnind {
     header {
-      background: #175ddc;
-      color: #ced4da;
+      background: #7e17de;
+      color: #d2ceda;
       height: 70px;
 
       &:before {
-        background: #175ddc;
+        background: #7e17de;
         content: "";
         height: 520px;
         left: 0;
@@ -119,7 +119,7 @@ app-sponsored-families {
       }
       &:not(.highlight) {
         &:before {
-          color: #1252a3;
+          color: #5012a1;
         }
       }
 

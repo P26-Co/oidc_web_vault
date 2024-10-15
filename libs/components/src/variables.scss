@@ -86,21 +86,21 @@ $mfaTypes: 0, 2, 3, 4, 6;
 // Light
 
 $lightDangerHover: #c83522;
-$lightInputColor: #465057;
-$lightInputPlaceholderColor: #b6b8b8;
+$lightInputColor: #4b4658;
+$lightInputPlaceholderColor: #b7b7b8;
 
 // Dark
 
-$darkPrimary: #6a99f0;
-$darkPrimary-alt: #b4ccf9;
+$darkPrimary: #b06af0;
+$darkPrimary-alt: #d7b4f9;
 $darkDanger: #ff8d85;
 $darkDangerHover: #ffbfbb;
 $darkSuccess: #52e07c;
 $darkWarning: #ffeb66;
-$darkInfo: #a4b0c6;
-$darkLinks: #6a99f0;
-$darkGrey1: #bac0ce;
-$darkGrey2: #8d94a5;
+$darkInfo: #b6a4c6;
+$darkLinks: #b06af0;
+$darkGrey1: #c6bace;
+$darkGrey2: #9b8da5;
 $darkBlue1: #4c525f;
 $darkBlue2: #3c424e;
 $darkDarkBlue1: #2f343d;
@@ -113,7 +113,7 @@ $themes: (
     primary: $primary,
     primaryAlt: $primary-accent,
     danger: $danger,
-    info: #343a40,
+    info: #393541,
     success: $success,
     warning: $warning,
     backgroundColor: $white,
@@ -122,11 +122,11 @@ $themes: (
     badgeInfoBackground: #555555,
     badgeInfoText: $white,
     badgePrimaryBackground: $primary,
-    badgePrimaryBackgroundHover: #134eb9,
+    badgePrimaryBackgroundHover: #6913b9,
     badgePrimaryText: $white,
     badgeSecondaryBackground: #d2ceda,
-    badgeSecondaryText: #212529,
-    bgLightColor: #f8f9fa,
+    badgeSecondaryText: #25222a,
+    bgLightColor: #faf9fb,
     bgPrimaryColor: $primary,
     borderColor: $border-color,
     borderPrimaryColor: $primary,
@@ -135,7 +135,7 @@ $themes: (
     btnDangerHover: $lightDangerHover,
     btnDangerText: $white,
     btnLinkText: $primary,
-    btnLinkTextHover: #104097,
+    btnLinkTextHover: #561098,
     btnOutlineDangerBackground: $input-bg,
     btnOutlineDangerBackgroundHover: $danger,
     btnOutlineDangerBorder: #d2ceda,
@@ -152,27 +152,27 @@ $themes: (
     btnOutlineSecondaryBackgroundHover: #d2ceda,
     btnOutlineSecondaryBorder: #d2ceda,
     btnOutlineSecondaryBorderHover: #d2ceda,
-    btnOutlineSecondaryText: #6c757d,
+    btnOutlineSecondaryText: #736d7e,
     btnOutlineSecondaryTextHover: #333333,
     btnPrimary: $primary,
-    btnPrimaryBorderHover: #1249ae,
-    btnPrimaryHover: #134eb9,
+    btnPrimaryBorderHover: #6412af,
+    btnPrimaryHover: #6913b9,
     btnPrimaryText: $white,
     btnSecondary: $secondary,
     btnSecondaryBorder: $secondary,
-    btnSecondaryBorderHover: #b1bbc4,
-    btnSecondaryHover: #b8c1ca,
-    btnSecondaryText: #212529,
-    btnSecondaryTextHover: #212529,
+    btnSecondaryBorderHover: #b7b1c4,
+    btnSecondaryHover: #bfb9cb,
+    btnSecondaryText: #25222a,
+    btnSecondaryTextHover: #25222a,
     calloutBackground: #fafafa,
-    calloutColor: #212529,
+    calloutColor: #25222a,
     cdkDraggingBackground: $white,
     codeColor: #e83e8c,
     dropdownBackground: $white,
     dropdownHover: rgba(0, 0, 0, 0.06),
     dropdownTextColor: $body-color,
-    dropdownTextMuted: #6c757d,
-    focus: rgb(23 93 220 / 25%),
+    dropdownTextMuted: #736d7e,
+    focus: rgb(75 93 220 / 25%),
     footerBackgroundColor: #fbfbfb,
     foregroundColor: $white,
     headerColor: rgba(0, 0, 0, 0.03),
@@ -182,13 +182,13 @@ $themes: (
     inputBackgroundColor: $input-bg,
     inputBorderColor: $border-color,
     inputDisabledBackground: #e0e0e0,
-    inputDisabledColor: #6c757d,
+    inputDisabledColor: #736d7e,
     inputPlaceholderColor: $lightInputPlaceholderColor,
     inputTextColor: $lightInputColor,
-    layoutFrontendColor: #ecf0f5,
-    learnMoreHover: #104097,
+    layoutFrontendColor: #efebf4,
+    learnMoreHover: #561098,
     linkColor: $primary,
-    linkColorHover: #104097,
+    linkColorHover: #561098,
     linkWeight: 400,
     listItemActive: $body-color,
     listItemBorder: rgba(0, 0, 0, 0.125),
@@ -204,19 +204,19 @@ $themes: (
     pwLetter: $body-color,
     pwNumber: #007fde,
     pwSpecial: #c40800,
-    pwStrengthBackground: #e9ecef,
+    pwStrengthBackground: #eceaf0,
     separator: $secondary,
     separatorHr: rgb(0, 0, 0, 0.1),
     tableColorHover: #333333,
     tableLinkColor: $primary,
-    tableLinkColorHover: #104097,
+    tableLinkColorHover: #561098,
     tableRowHover: rgba(0, 0, 0, 0.03),
     tableSeparator: #dee2e6,
     textColor: $body-color,
     textDangerColor: $white,
     textInfoColor: $white,
     textHeadingColor: #333333,
-    textMuted: #6c757d,
+    textMuted: #736d7e,
     textSuccessColor: $white,
     textWarningColor: $white,
   ),
@@ -282,7 +282,7 @@ $themes: (
     dropdownBackground: $darkDarkBlue1,
     dropdownHover: rgba(255, 255, 255, 0.03),
     dropdownTextColor: $white,
-    dropdownTextMuted: #bec6cf,
+    dropdownTextMuted: #c5becf,
     focus: rgb(106 153 240 / 25%),
     footerBackgroundColor: $darkBlue1,
     foregroundColor: $darkDarkBlue1,

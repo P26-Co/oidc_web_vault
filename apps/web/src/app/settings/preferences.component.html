@@ -49,20 +49,19 @@
     </ng-container>
     <bit-form-field>
       <!-- temp-comment: p26 -->
-      <!-- <bit-label
+      <bit-label
         >{{ "language" | i18n }}
-        <a
-          bitLink
-          class="tw-float-right"
+        <!-- <a
+          bitLink target="_blank"
           href="https://bitwarden.com/help/localization/"
-          target="_blank"
+          class="tw-float-right"
           rel="noreferrer"
           appA11yTitle="{{ 'learnMore' | i18n }}"
           slot="end"
         >
           <i class="bwi bwi-question-circle" aria-hidden="true"></i>
-        </a>
-      </bit-label> -->
+        </a> -->
+      </bit-label>
       <bit-select formControlName="locale" id="locale">
         <bit-option *ngFor="let o of localeOptions" [value]="o.value" [label]="o.name"></bit-option>
       </bit-select>
@@ -71,19 +70,19 @@
     <bit-form-control>
       <input type="checkbox" bitCheckbox formControlName="enableFavicons" />
       <!-- temp-comment: p26 -->
-      <!-- <bit-label
+      <bit-label
         >{{ "enableFavicon" | i18n }}
-        <a
-          bitLink
-          href="https://bitwarden.com/help/website-icons/"
-          target="_blank"
+        <!-- <a
           rel="noreferrer"
           appA11yTitle="{{ 'learnMore' | i18n }}"
           slot="end"
+          bitLink
+          target="_blank"
+          href="https://bitwarden.com/help/website-icons/"
         >
           <i class="bwi bwi-question-circle" aria-hidden="true"></i>
-        </a>
-      </bit-label> -->
+        </a> -->
+      </bit-label>
       <bit-hint>{{ "faviconDesc" | i18n }}</bit-hint>
     </bit-form-control>
     <bit-form-field>

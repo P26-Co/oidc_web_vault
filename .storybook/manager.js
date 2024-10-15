@@ -11,27 +11,27 @@ const lightTheme = create({
   brandTarget: "_self",
 
   //Colors
-  colorPrimary: "#6D757E",
-  colorSecondary: "#175DDC",
+  colorPrimary: "#746d7e",
+  colorSecondary: "#7e17de",
 
   // UI
-  appBg: "#f9fBff",
+  appBg: "#7e6d79",
   appContentBg: "#ffffff",
-  appBorderColor: "#CED4DC",
+  appBorderColor: "#d5cfdd",
 
   // Text colors
-  textColor: "#212529",
+  textColor: "#25222a",
   textInverseColor: "#ffffff",
 
   // Toolbar default and active colors
-  barTextColor: "#6D757E",
-  barSelectedColor: "#175DDC",
+  barTextColor: "#746d7e",
+  barSelectedColor: "#7e17de",
   barBg: "#ffffff",
 
   // Form colors
   inputBg: "#ffffff",
-  inputBorder: "#6D757E",
-  inputTextColor: "#6D757E",
+  inputBorder: "#746d7e",
+  inputTextColor: "#746d7e",
 });
 
 const darkTheme = create({
@@ -45,8 +45,8 @@ const darkTheme = create({
   brandTarget: "_self",
 
   //Colors
-  colorSecondary: "#6A99F0",
-  barSelectedColor: "#6A99F0",
+  colorSecondary: "#b06af0",
+  barSelectedColor: "#b06af0",
 });
 
 export const getPreferredColorScheme = () => {
