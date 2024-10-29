@@ -2,85 +2,427 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="400"
+   width="390"
    height="80"
-   viewBox="0 0 97 25"
+   viewBox="0 0 103.18736 21.166667"
    version="1.1"
    id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs2" />
+     id="defs2">
+    <filter
+       filterUnits="userSpaceOnUse"
+       id="Filter_0"
+       x="9"
+       y="7"
+       width="55"
+       height="57">
+      <feOffset
+         in="SourceAlpha"
+         dx="0"
+         dy="0"
+         id="feOffset824" />
+      <feGaussianBlur
+         result="blurOut"
+         stdDeviation="2"
+         id="feGaussianBlur826" />
+      <feFlood
+         flood-color="rgb(56, 28, 94)"
+         result="floodOut"
+         id="feFlood828" />
+      <feComposite
+         operator="atop"
+         in="floodOut"
+         in2="blurOut"
+         id="feComposite830" />
+      <feComponentTransfer
+         id="feComponentTransfer834">
+        <feFuncA
+           type="linear"
+           slope="0.7"
+           id="feFuncA832" />
+      </feComponentTransfer>
+      <feMerge
+         id="feMerge840">
+        <feMergeNode
+           id="feMergeNode836" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode838" />
+      </feMerge>
+    </filter>
+    <radialGradient
+       id="PSgrad_0">
+      <stop
+         offset="0%"
+         stop-color="rgb(255,255,255)"
+         stop-opacity="1"
+         id="stop843" />
+      <stop
+         offset="100%"
+         stop-color="rgb(223,202,251)"
+         stop-opacity="1"
+         id="stop845" />
+    </radialGradient>
+    <linearGradient
+       id="PSgrad_1"
+       x1="17.283026"
+       x2="44.791115"
+       y1="42.571968"
+       y2="15.063878"
+       gradientTransform="scale(0.97830098,1.0221803)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="rgb(223,202,251)"
+         stop-opacity="1"
+         id="stop848" />
+      <stop
+         offset="100%"
+         stop-color="rgb(255,255,255)"
+         stop-opacity="1"
+         id="stop850" />
+    </linearGradient>
+    <linearGradient
+       id="PSgrad_2"
+       x1="7.0415015"
+       x2="7.0415015"
+       y1="115.39536"
+       y2="106.74928"
+       gradientTransform="scale(3.1740389,0.315056)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="rgb(255,255,255)"
+         stop-opacity="1"
+         id="stop853" />
+      <stop
+         offset="100%"
+         stop-color="rgb(223,202,251)"
+         stop-opacity="1"
+         id="stop855" />
+    </linearGradient>
+    <linearGradient
+       id="PSgrad_3"
+       x1="118.81048"
+       x2="110.16487"
+       y1="6.702868"
+       y2="6.702868"
+       gradientTransform="scale(0.31507322,3.1738654)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="rgb(255,255,255)"
+         stop-opacity="1"
+         id="stop858" />
+      <stop
+         offset="100%"
+         stop-color="rgb(223,202,251)"
+         stop-opacity="1"
+         id="stop860" />
+    </linearGradient>
+    <linearGradient
+       id="PSgrad_4"
+       x1="0"
+       x2="0.70710999"
+       y1="0.70710999"
+       y2="0">
+      <stop
+         offset="0%"
+         stop-color="rgb(255,255,255)"
+         stop-opacity="1"
+         id="stop863" />
+      <stop
+         offset="100%"
+         stop-color="rgb(223,202,251)"
+         stop-opacity="1"
+         id="stop865" />
+    </linearGradient>
+    <filter
+       filterUnits="userSpaceOnUse"
+       id="Filter_0-3"
+       x="8"
+       y="6"
+       width="48"
+       height="50">
+      <feOffset
+         in="SourceAlpha"
+         dx="0"
+         dy="0"
+         id="feOffset1446" />
+      <feGaussianBlur
+         result="blurOut"
+         stdDeviation="2"
+         id="feGaussianBlur1448" />
+      <feFlood
+         flood-color="rgb(56, 28, 94)"
+         result="floodOut"
+         id="feFlood1450" />
+      <feComposite
+         operator="atop"
+         in="floodOut"
+         in2="blurOut"
+         id="feComposite1452" />
+      <feComponentTransfer
+         id="feComponentTransfer1456">
+        <feFuncA
+           type="linear"
+           slope="0.7"
+           id="feFuncA1454" />
+      </feComponentTransfer>
+      <feMerge
+         id="feMerge1462">
+        <feMergeNode
+           id="feMergeNode1458" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode1460" />
+      </feMerge>
+    </filter>
+    <radialGradient
+       id="PSgrad_0-6">
+      <stop
+         offset="0%"
+         stop-color="rgb(255,255,255)"
+         stop-opacity="1"
+         id="stop1465" />
+      <stop
+         offset="100%"
+         stop-color="rgb(223,202,251)"
+         stop-opacity="1"
+         id="stop1467" />
+    </radialGradient>
+    <linearGradient
+       id="PSgrad_1-7"
+       x1="15.585446"
+       x2="39.189484"
+       y1="36.581684"
+       y2="12.977648"
+       gradientTransform="scale(0.97642375,1.0241455)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="rgb(223,202,251)"
+         stop-opacity="1"
+         id="stop1470" />
+      <stop
+         offset="100%"
+         stop-color="rgb(255,255,255)"
+         stop-opacity="1"
+         id="stop1472" />
+    </linearGradient>
+    <linearGradient
+       id="PSgrad_2-5"
+       x1="6.439775"
+       x2="6.439775"
+       y1="96.755623"
+       y2="89.120514"
+       gradientTransform="scale(3.0836481,0.32429122)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="rgb(255,255,255)"
+         stop-opacity="1"
+         id="stop1475" />
+      <stop
+         offset="100%"
+         stop-color="rgb(223,202,251)"
+         stop-opacity="1"
+         id="stop1477" />
+    </linearGradient>
+    <linearGradient
+       id="PSgrad_3-3"
+       x1="101.66301"
+       x2="94.02243"
+       y1="5.9227014"
+       y2="5.9227014"
+       gradientTransform="scale(0.32327392,3.0933519)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="rgb(255,255,255)"
+         stop-opacity="1"
+         id="stop1480" />
+      <stop
+         offset="100%"
+         stop-color="rgb(223,202,251)"
+         stop-opacity="1"
+         id="stop1482" />
+    </linearGradient>
+    <radialGradient
+       xlink:href="#PSgrad_0-6"
+       id="radialGradient1580"
+       gradientTransform="scale(0.97632604,1.024248)"
+       cx="32.279175"
+       cy="29.66469"
+       fx="32.279175"
+       fy="29.66469"
+       r="19.343948"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       xlink:href="#PSgrad_0-6"
+       id="radialGradient1582"
+       gradientTransform="scale(0.99808811,1.0019156)"
+       cx="31.69059"
+       cy="30.081379"
+       fx="31.69059"
+       fy="30.081379"
+       r="9.1444836"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#PSgrad_4"
+       id="linearGradient1584"
+       x1="22.988775"
+       y1="33.686607"
+       x2="35.291386"
+       y2="21.383997"
+       gradientTransform="scale(0.9981481,1.0018553)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#PSgrad_4"
+       id="linearGradient1586"
+       x1="22.966497"
+       y1="33.696892"
+       x2="35.299782"
+       y2="21.363605"
+       gradientTransform="scale(0.99813111,1.0018724)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       xlink:href="#PSgrad_0-6"
+       id="radialGradient1588"
+       gradientTransform="scale(0.99824638,1.0017567)"
+       cx="31.685564"
+       cy="30.086147"
+       fx="31.685564"
+       fy="30.086147"
+       r="4.5579929"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <g
      id="layer1">
     <g
-       id="g75"
-       transform="matrix(0.26458333,0,0,0.26458333,81.350371,79.746893)">
-      <path
-         fill-rule="evenodd"
-         fill-opacity="0"
-         fill="#ffffff"
-         d="m -304.38786,-297.68624 h 422.53558 v 75.09061 h -422.53558 z"
-         id="path39"
-         style="stroke-width:2.4145" />
-      <path
-         fill-rule="evenodd"
-         opacity="0"
-         fill="#ffffff"
-         d="m -303.20718,-297.46411 h 77.20813 v 77.20571 h -77.20813 z"
-         id="path41"
-         style="stroke-width:2.4145" />
+       id="g1578"
+       transform="matrix(0.33717389,0,0,0.33717389,0.21964103,0.13094297)">
       <path
          fill-rule="evenodd"
          fill="#482773"
-         d="m -300.85788,-282.21419 36.20527,-15.01571 36.30185,15.01571 -0.24629,16.44266 -8.95051,31.97509 -27.10505,13.28693 -26.91189,-13.28693 -9.04951,-32.09339 z"
-         id="path43"
-         style="stroke-width:2.4145" />
+         d="m 7.044,0.004 h 49.049 c 3.383,0 6.126,2.743 6.126,6.126 v 49.74 c 0,3.383 -2.743,6.126 -6.126,6.126 H 7.044 c -3.383,0 -6.126,-2.743 -6.126,-6.126 V 6.13 c 0,-3.383 2.743,-6.126 6.126,-6.126 z"
+         id="path1492" />
+      <g
+         filter="url(#Filter_0)"
+         id="g1496"
+         style="filter:url(#Filter_0-3)">
+        <path
+           fill-rule="evenodd"
+           fill="#482773"
+           d="m 19.623,11.071 h 23.784 c 3.586,0 6.494,2.907 6.494,6.494 v 25.639 c 0,3.586 -2.908,6.493 -6.494,6.493 H 19.623 c -3.586,0 -6.494,-2.907 -6.494,-6.493 V 17.565 c 0,-3.587 2.908,-6.494 6.494,-6.494 z"
+           id="path1494" />
+      </g>
+      <path
+         stroke-width="1px"
+         stroke="#664790"
+         fill="url(#PSgrad_0)"
+         d="m 19.623,11.071 h 23.784 c 3.586,0 6.494,2.907 6.494,6.494 v 25.639 c 0,3.586 -2.908,6.493 -6.494,6.493 H 19.623 c -3.586,0 -6.494,-2.907 -6.494,-6.493 V 17.565 c 0,-3.587 2.908,-6.494 6.494,-6.494 z"
+         id="path1498"
+         style="fill:url(#radialGradient1580)" />
       <path
          fill-rule="evenodd"
-         fill="#ffffff"
-         d="m -236.96326,-265.50111 -7.59356,24.43705 -16.28332,7.16621 v -51.32963 l 9.57827,3.53482 v 33.5638 l 5.99761,-20.3155 z"
-         id="path45"
-         style="stroke-width:2.4145" />
+         fill="#c8b1e5"
+         d="m 22.212,13.791 h 18.606 c 3.586,0 6.494,2.907 6.494,6.493 v 20.2 c 0,3.586 -2.908,6.494 -6.494,6.494 H 22.212 c -3.586,0 -6.494,-2.908 -6.494,-6.494 v -20.2 c 0,-3.586 2.908,-6.493 6.494,-6.493 z"
+         id="path1500" />
+      <path
+         stroke-width="1px"
+         stroke="#482773"
+         fill="url(#PSgrad_1)"
+         d="m 22.212,13.791 h 18.606 c 3.586,0 6.494,2.907 6.494,6.493 v 20.2 c 0,3.586 -2.908,6.494 -6.494,6.494 H 22.212 c -3.586,0 -6.494,-2.908 -6.494,-6.494 v -20.2 c 0,-3.586 2.908,-6.493 6.494,-6.493 z"
+         id="path1502"
+         style="fill:url(#PSgrad_1-7)" />
       <path
          fill-rule="evenodd"
-         fill="#b8abc9"
-         d="m -244.96245,-279.29267 8.3324,3.50584 -0.34044,10.32919 -8.29377,-2.90462 z"
-         id="path47"
-         style="stroke-width:2.4145" />
+         fill="#482773"
+         d="m 31.63,21.477 c 4.764,0 8.627,3.878 8.627,8.662 0,4.784 -3.863,8.662 -8.627,8.662 -4.765,0 -8.627,-3.878 -8.627,-8.662 0,-4.784 3.862,-8.662 8.627,-8.662 z"
+         id="path1504" />
+      <path
+         stroke-width="1px"
+         stroke="#482773"
+         fill="url(#PSgrad_0)"
+         d="m 31.63,21.477 c 4.764,0 8.627,3.878 8.627,8.662 0,4.784 -3.863,8.662 -8.627,8.662 -4.765,0 -8.627,-3.878 -8.627,-8.662 0,-4.784 3.862,-8.662 8.627,-8.662 z"
+         id="path1506"
+         style="fill:url(#radialGradient1582)" />
       <path
          fill-rule="evenodd"
-         fill="#b8abc9"
-         d="m -291.94118,-275.76268 25.13968,12.42256 -0.01,19.14689 -0.0966,10.39196 -9.68451,-4.41611 -0.21248,-19.92195 -15.13643,-7.10101 z"
-         id="path49"
-         style="stroke-width:2.4145" />
+         fill="#482773"
+         d="m 21.093,29.401 h 21.074 c 0.406,0 0.735,0.329 0.735,0.735 v 0.006 c 0,0.406 -0.329,0.735 -0.735,0.735 H 21.093 c -0.406,0 -0.735,-0.329 -0.735,-0.735 v -0.006 c 0,-0.406 0.329,-0.735 0.735,-0.735 z"
+         id="path1508" />
+      <path
+         stroke-width="1px"
+         stroke="#482773"
+         fill="url(#PSgrad_2)"
+         d="m 21.093,29.401 h 21.074 c 0.406,0 0.735,0.329 0.735,0.735 v 0.006 c 0,0.406 -0.329,0.735 -0.735,0.735 H 21.093 c -0.406,0 -0.735,-0.329 -0.735,-0.735 v -0.006 c 0,-0.406 0.329,-0.735 0.735,-0.735 z"
+         id="path1510"
+         style="fill:url(#PSgrad_2-5)" />
       <path
          fill-rule="evenodd"
-         fill="#ffffff"
-         d="m -291.94359,-275.74336 25.1614,-9.47445 v 10.49094 l -25.1614,9.47204 z"
-         id="path51"
-         style="stroke-width:2.4145" />
+         fill="#482773"
+         d="M 30.895,40.721 V 19.557 c 0,-0.406 0.329,-0.736 0.735,-0.736 0.406,0 0.735,0.33 0.735,0.736 v 21.164 c 0,0.406 -0.329,0.735 -0.735,0.735 -0.406,0 -0.735,-0.329 -0.735,-0.735 z"
+         id="path1512" />
+      <path
+         stroke-width="1px"
+         stroke="#482773"
+         fill="url(#PSgrad_3)"
+         d="M 30.895,40.721 V 19.557 c 0,-0.406 0.329,-0.736 0.735,-0.736 0.406,0 0.735,0.33 0.735,0.736 v 21.164 c 0,0.406 -0.329,0.735 -0.735,0.735 -0.406,0 -0.735,-0.329 -0.735,-0.735 z"
+         id="path1514"
+         style="fill:url(#PSgrad_3-3)" />
       <path
          fill-rule="evenodd"
-         fill="#ffffff"
-         d="m -287.70857,-243.20571 20.86844,9.39478 v -10.49578 l -23.07287,-9.40685 z"
-         id="path53"
-         style="stroke-width:2.4145" />
+         fill="#482773"
+         d="M 38.561,38.142 23.659,23.18 c -0.287,-0.288 -0.287,-0.756 0,-1.044 0.288,-0.288 0.753,-0.288 1.04,0 L 39.6,37.098 c 0.287,0.288 0.287,0.755 0,1.044 -0.287,0.288 -0.752,0.288 -1.039,0 z"
+         id="path1516" />
+      <path
+         stroke-width="1px"
+         stroke="#482773"
+         fill="url(#PSgrad_4)"
+         d="M 38.561,38.142 23.659,23.18 c -0.287,-0.288 -0.287,-0.756 0,-1.044 0.288,-0.288 0.753,-0.288 1.04,0 L 39.6,37.098 c 0.287,0.288 0.287,0.755 0,1.044 -0.287,0.288 -0.752,0.288 -1.039,0 z"
+         id="path1518"
+         style="fill:url(#linearGradient1584)" />
+      <path
+         fill-rule="evenodd"
+         fill="#482773"
+         d="M 39.62,23.163 24.678,38.165 c -0.287,0.289 -0.753,0.289 -1.04,0 l -0.002,-0.002 c -0.287,-0.289 -0.287,-0.756 0,-1.044 L 38.578,22.116 c 0.287,-0.288 0.752,-0.288 1.039,0 l 0.003,0.003 c 0.287,0.288 0.287,0.756 0,1.044 z"
+         id="path1520" />
+      <path
+         stroke-width="1px"
+         stroke="#482773"
+         fill="url(#PSgrad_4)"
+         d="M 39.62,23.163 24.678,38.165 c -0.287,0.289 -0.753,0.289 -1.04,0 l -0.002,-0.002 c -0.287,-0.289 -0.287,-0.756 0,-1.044 L 38.578,22.116 c 0.287,-0.288 0.752,-0.288 1.039,0 l 0.003,0.003 c 0.287,0.288 0.287,0.756 0,1.044 z"
+         id="path1522"
+         style="fill:url(#linearGradient1586)" />
+      <path
+         fill-rule="evenodd"
+         fill="#482773"
+         d="m 31.63,26.073 c 2.237,0 4.05,1.82 4.05,4.066 0,2.246 -1.813,4.066 -4.05,4.066 -2.237,0 -4.05,-1.82 -4.05,-4.066 0,-2.246 1.813,-4.066 4.05,-4.066 z"
+         id="path1524" />
+      <path
+         stroke-width="1px"
+         stroke="#482773"
+         fill="url(#PSgrad_0)"
+         d="m 31.63,26.073 c 2.237,0 4.05,1.82 4.05,4.066 0,2.246 -1.813,4.066 -4.05,4.066 -2.237,0 -4.05,-1.82 -4.05,-4.066 0,-2.246 1.813,-4.066 4.05,-4.066 z"
+         id="path1526"
+         style="fill:url(#radialGradient1588)" />
       <text
          kerning="auto"
          font-family="'Myriad Pro'"
          fill="#000000"
-         font-size="62.7766px"
-         x="-210.22279"
-         y="-235.66521"
-         id="text57"
-         style="stroke-width:2.4145"><tspan
-           font-size="62.7766px"
+         transform="matrix(0.12251941,0,0,0.12301587,76.36101,42.184028)"
+         font-size="350px"
+         id="text1530"><tspan
+           font-size="350px"
            font-family="Montserrat"
            font-weight="bold"
-           fill="#482773"
-           id="tspan55"
-           style="stroke-width:10.2094">SaviVault</tspan></text>
+           fill="#492773"
+           id="tspan1528">SaviVault</tspan></text>
     </g>
   </g>
 </svg>
