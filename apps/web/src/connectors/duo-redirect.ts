@@ -3,7 +3,7 @@ import { TranslationService } from "./translation.service";
 
 require("./duo-redirect.scss");
 
-const mobileDesktopCallback = "bitwarden://duo-callback";
+const mobileDesktopCallback = "savivault://duo-callback";
 let localeService: TranslationService = null;
 
 window.addEventListener("load", async () => {

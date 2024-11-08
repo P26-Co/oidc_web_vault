@@ -3,7 +3,7 @@ import { buildDataString, parseWebauthnJson } from "./common-webauthn";
 
 require("./webauthn.scss");
 
-const mobileCallbackUri = "bitwarden://webauthn-callback";
+const mobileCallbackUri = "savivault://webauthn-callback";
 
 let parsed = false;
 let webauthnJson: any;

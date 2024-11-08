@@ -86,7 +86,7 @@ async function start() {
 
 function captchaSuccess(response: string) {
   if (mobileResponse) {
-    document.location.replace("bitwarden://captcha-callback?token=" + encodeURIComponent(response));
+    document.location.replace("savivault://captcha-callback?token=" + encodeURIComponent(response));
   } else {
     success(response);
   }
