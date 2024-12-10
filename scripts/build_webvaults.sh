@@ -27,7 +27,7 @@ if [ "$ONLY_OVERRIDE" = false ] ; then
     npm run dist:oss:selfhost
     printf '{"version": "oidc_button-%s"}' $TAG_CURRENT > build/vw-version.json
     mv build web-vault
-    tar -czvf ../../"oidc_button_web_vault.tar.gz" web-vault --owner=0 --group=0
+    tar -czvf ../../"oidc_button_web_vault.tar.gz" web-vault
     rm -rf web-vault
     cd ../..
 fi
@@ -39,6 +39,9 @@ cd apps/web
 npm run dist:oss:selfhost
 printf '{"version": "oidc_override-%s"}' $TAG_CURRENT > build/vw-version.json
 mv build web-vault
-tar -czvf ../../"oidc_override_web_vault.tar.gz" web-vault --owner=0 --group=0
+tar -czvf ../../"oidc_override_web_vault.tar.gz" web-vault
 rm -rf web-vault
 cd ../..
+
+mv oidc_button_web_vault.tar.gz ../OIDCWarden/oidc_button_web_vault.tar.gz
+mv oidc_override_web_vault.tar.gz ../OIDCWarden/oidc_override_web_vault.tar.gz
