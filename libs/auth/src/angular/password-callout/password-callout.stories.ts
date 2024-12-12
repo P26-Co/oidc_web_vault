@@ -17,7 +17,7 @@ export default {
           useFactory: () => {
             return new I18nMockService({
               masterPasswordPolicyInEffect:
-                "One or more organization policies require your master password to meet the following requirements:",
+                "One or more organization policies require your master pin to meet the following requirements:",
               policyInEffectMinLength: "Minimum length of __$1__",
               policyInEffectMinComplexity: "Minimum complexity score of __$1__",
               policyInEffectUppercase: "Contain one or more uppercase characters",

@@ -180,18 +180,18 @@ export class UserVerificationService implements UserVerificationServiceAbstracti
     email: string,
   ): Promise<MasterPasswordVerificationResponse> {
     if (!verification.secret) {
-      throw new Error("Master Password is required. Cannot verify user without a master password.");
+      throw new Error("Master Pin is required. Cannot verify user without a master pin.");
     }
     if (!userId) {
-      throw new Error("User ID is required. Cannot verify user by master password.");
+      throw new Error("User ID is required. Cannot verify user by master pin.");
     }
     if (!email) {
-      throw new Error("Email is required. Cannot verify user by master password.");
+      throw new Error("Email is required. Cannot verify user by master pin.");
     }
 
     const kdfConfig = await this.kdfConfigService.getKdfConfig();
     if (!kdfConfig) {
-      throw new Error("KDF config is required. Cannot verify user by master password.");
+      throw new Error("KDF config is required. Cannot verify user by master pin.");
     }
 
     let masterKey = await firstValueFrom(this.masterPasswordService.masterKey$(userId));
@@ -200,7 +200,7 @@ export class UserVerificationService implements UserVerificationServiceAbstracti
     }
 
     if (!masterKey) {
-      throw new Error("Master key could not be created to verify the master password.");
+      throw new Error("Master key could not be created to verify the master pin.");
     }
 
     let policyOptions: MasterPasswordPolicyResponse | null;

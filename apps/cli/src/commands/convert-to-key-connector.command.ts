@@ -42,10 +42,10 @@ export class ConvertToKeyConnectorCommand {
       name: "convert",
       message:
         organization.name +
-        " is using a self-hosted key server. A master password is no longer required to log in for members of this organization. ",
+        " is using a self-hosted key server. A master pin is no longer required to log in for members of this organization. ",
       choices: [
         {
-          name: "Remove master password and unlock",
+          name: "Remove master pin and unlock",
           value: "remove",
         },
         {

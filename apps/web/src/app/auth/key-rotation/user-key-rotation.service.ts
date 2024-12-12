@@ -49,7 +49,7 @@ export class UserKeyRotationService {
     user: { id: UserId } & AccountInfo,
   ): Promise<void> {
     if (!masterPassword) {
-      throw new Error("Invalid master password");
+      throw new Error("Invalid master pin");
     }
 
     if ((await this.syncService.getLastSync()) === null) {

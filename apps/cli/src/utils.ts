@@ -237,13 +237,13 @@ export class CliUtils {
         })({
           type: "password",
           name: "password",
-          message: "Master password:",
+          message: "Master pin:",
         });
 
         password = answer.password;
       } else {
         return Response.badRequest(
-          "Master password is required. Try again in interactive mode or provide a password file or environment variable.",
+          "Master pin is required. Try again in interactive mode or provide a password file or environment variable.",
         );
       }
     }

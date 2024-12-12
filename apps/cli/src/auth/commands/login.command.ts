@@ -147,14 +147,14 @@ export class LoginCommand {
           })({
             type: "password",
             name: "password",
-            message: "Master password:",
+            message: "Master pin:",
           });
           password = answer.password;
         }
       }
 
       if (password == null || password === "") {
-        return Response.badRequest("Master password is required.");
+        return Response.badRequest("Master pin is required.");
       }
     }
 
@@ -322,7 +322,7 @@ export class LoginCommand {
       if (response.resetMasterPassword) {
         return Response.error(
           "In order to log in with SSO from the CLI, you must first log in" +
-            " through the web vault to set your master password.",
+            " through the web vault to set your master pin.",
         );
       }
 
@@ -393,7 +393,7 @@ export class LoginCommand {
     });
 
     const res = new MessageResponse(
-      "Your master password has been updated!",
+      "Your master pin has been updated!",
       "\n" + "You have been logged out and must log in again to access the vault.",
     );
 
@@ -409,7 +409,7 @@ export class LoginCommand {
       });
       return Response.error(
         new MessageResponse(
-          "Your master password does not meet one or more of your organization policies. In order to access the vault, you must update your master password now via the web vault. You have been logged out.",
+          "Your master pin does not meet one or more of your organization policies. In order to access the vault, you must update your master pin now via the web vault. You have been logged out.",
           null,
         ),
       );
@@ -417,7 +417,7 @@ export class LoginCommand {
 
     try {
       const { newPasswordHash, newUserKey, hint } = await this.collectNewMasterPasswordDetails(
-        "Your master password does not meet one or more of your organization policies. In order to access the vault, you must update your master password now.",
+        "Your master pin does not meet one or more of your organization policies. In order to access the vault, you must update your master pin now.",
       );
 
       const request = new PasswordRequest();
@@ -447,7 +447,7 @@ export class LoginCommand {
       });
       return Response.error(
         new MessageResponse(
-          "An organization administrator recently changed your master password. In order to access the vault, you must update your master password now via the web vault. You have been logged out.",
+          "An organization administrator recently changed your master pin. In order to access the vault, you must update your master pin now via the web vault. You have been logged out.",
           null,
         ),
       );
@@ -455,7 +455,7 @@ export class LoginCommand {
 
     try {
       const { newPasswordHash, newUserKey, hint } = await this.collectNewMasterPasswordDetails(
-        "An organization administrator recently changed your master password. In order to access the vault, you must update your master password now.",
+        "An organization administrator recently changed your master pin. In order to access the vault, you must update your master pin now.",
       );
 
       const request = new UpdateTempPasswordRequest();
@@ -497,7 +497,7 @@ export class LoginCommand {
     }
 
     // Get New Master Password
-    const baseMessage = `${prompt}\n` + "Master password: ";
+    const baseMessage = `${prompt}\n` + "Master pin: ";
     const firstMessage = error != null ? error + baseMessage : baseMessage;
     const mp: inquirer.Answers = await inquirer.createPromptModule({ output: process.stderr })({
       type: "password",
@@ -508,13 +508,13 @@ export class LoginCommand {
 
     // Master Password Validation
     if (masterPassword == null || masterPassword === "") {
-      return this.collectNewMasterPasswordDetails(prompt, "Master password is required.\n");
+      return this.collectNewMasterPasswordDetails(prompt, "Master pin is required.\n");
     }
 
     if (masterPassword.length < Utils.minimumPasswordLength) {
       return this.collectNewMasterPasswordDetails(
         prompt,
-        `Master password must be at least ${Utils.minimumPasswordLength} characters long.\n`,
+        `Master pin must be at least ${Utils.minimumPasswordLength} characters long.\n`,
       );
     }
 
@@ -539,12 +539,12 @@ export class LoginCommand {
     ) {
       return this.collectNewMasterPasswordDetails(
         prompt,
-        "Your new master password does not meet the policy requirements.\n",
+        "Your new master pin does not meet the policy requirements.\n",
       );
     }
 
     // Get New Master Password Re-type
-    const reTypeMessage = "Re-type New Master password (Strength: " + strengthResult.score + ")";
+    const reTypeMessage = "Re-type New Master pin (Strength: " + strengthResult.score + ")";
     const retype: inquirer.Answers = await inquirer.createPromptModule({ output: process.stderr })({
       type: "password",
       name: "password",
@@ -556,7 +556,7 @@ export class LoginCommand {
     if (masterPassword !== masterPasswordRetype) {
       return this.collectNewMasterPasswordDetails(
         prompt,
-        "Master password confirmation does not match.\n",
+        "Master pin confirmation does not match.\n",
       );
     }
 
@@ -564,7 +564,7 @@ export class LoginCommand {
     const hint: inquirer.Answers = await inquirer.createPromptModule({ output: process.stderr })({
       type: "input",
       name: "input",
-      message: "Master Password Hint (optional):",
+      message: "Master pin Hint (optional):",
     });
     const masterPasswordHint = hint.input;
     const kdfConfig = await this.kdfConfigService.getKdfConfig();

@@ -759,7 +759,7 @@
     "message": "Log in with device must be set up in the settings of the SaviVault app. Need another option?"
   },
   "loginWithMasterPassword": {
-    "message": "Log in with master password"
+    "message": "Log in with master pin"
   },
   "readingPasskeyLoading": {
     "message": "Reading passkey..."
@@ -810,7 +810,7 @@
     "message": "Use for vault encryption"
   },
   "useForVaultEncryptionInfo": {
-    "message": "Log in and unlock on supported devices without your master password. Follow the prompts from your browser to finalize setup."
+    "message": "Log in and unlock on supported devices without your master pin. Follow the prompts from your browser to finalize setup."
   },
   "useForVaultEncryptionErrorReadingPasskey": {
     "message": "Error reading passkey. Try again or uncheck this option."
@@ -843,7 +843,7 @@
     "message": "Remove passkey"
   },
   "removePasskeyInfo": {
-    "message": "If all passkeys are removed, you will be unable to log into new devices without your master password."
+    "message": "If all passkeys are removed, you will be unable to log into new devices without your master pin."
   },
   "passkeyLimitReachedInfo": {
     "message": "Passkey limit reached. Remove a passkey to add another."
@@ -855,10 +855,10 @@
     "message": "Create account"
   },
   "setAStrongPassword": {
-    "message": "Set a strong password"
+    "message": "Set a strong password/pin"
   },
   "finishCreatingYourAccountBySettingAPassword": {
-    "message": "Finish creating your account by setting a password"
+    "message": "Finish creating your account by setting a password/pin"
   },
   "newAroundHere": {
     "message": "New around here?"
@@ -888,31 +888,31 @@
     "message": "What should we call you?"
   },
   "masterPass": {
-    "message": "Master password"
+    "message": "Master pin"
   },
   "masterPassDesc": {
-    "message": "The master password is the password you use to access your vault. It is very important that you do not forget your master password. There is no way to recover the password in the event that you forget it."
+    "message": "The master pin is the pin you use to access your vault. It is very important that you do not forget your master pin. There is no way to recover the pin in the event that you forget it."
   },
   "masterPassImportant": {
-    "message": "Your master password cannot be recovered if you forget it!"
+    "message": "Your master pin cannot be recovered if you forget it!"
   },
   "masterPassHintDesc": {
-    "message": "A master password hint can help you remember your password if you forget it."
+    "message": "A master pin hint can help you remember your pin if you forget it."
   },
   "reTypeMasterPass": {
-    "message": "Re-type master password"
+    "message": "Re-type master pin"
   },
   "masterPassHint": {
-    "message": "Master password hint (optional)"
+    "message": "Master pin hint (optional)"
   },
   "newMasterPassHint": {
-    "message": "New master password hint (optional)"
+    "message": "New master pin hint (optional)"
   },
   "masterPassHintLabel": {
-    "message": "Master password hint"
+    "message": "Master pin hint"
   },
   "masterPassHintText": {
-    "message": "If you forget your password, the password hint can be sent to your email. $CURRENT$/$MAXIMUM$ character maximum.",
+    "message": "If you forget your pin, the pin hint can be sent to your email. $CURRENT$/$MAXIMUM$ character maximum.",
     "placeholders": {
       "current": {
         "content": "$1",
@@ -931,10 +931,10 @@
     "message": "Password hint"
   },
   "enterEmailToGetHint": {
-    "message": "Enter your account email address to receive your master password hint."
+    "message": "Enter your account email address to receive your master pin hint."
   },
   "getMasterPasswordHint": {
-    "message": "Get master password hint"
+    "message": "Get master pin hint"
   },
   "emailRequired": {
     "message": "Email address is required."
@@ -943,14 +943,14 @@
     "message": "Invalid email address."
   },
   "masterPasswordRequired": {
-    "message": "Master password is required."
+    "message": "Master pin is required."
   },
   "confirmMasterPasswordRequired": {
-    "message": "Master password retype is required."
+    "message": "Master pin retype is required."
   },
   "masterPasswordMinlength": {
-    "message": "Master password must be at least $VALUE$ characters long.",
-    "description": "The Master Password must be at least a specific number of characters long.",
+    "message": "Master pin must be at least $VALUE$ characters long.",
+    "description": "The Master pin must be at least a specific number of characters long.",
     "placeholders": {
       "value": {
         "content": "$1",
@@ -959,7 +959,7 @@
     }
   },
   "masterPassDoesntMatch": {
-    "message": "Master password confirmation does not match."
+    "message": "Master pin confirmation does not match."
   },
   "newAccountCreated": {
     "message": "Your new account has been created! You may now log in."
@@ -968,7 +968,7 @@
     "message": "Account created successfully."
   },
   "masterPassSent": {
-    "message": "We've sent you an email with your master password hint."
+    "message": "We've sent you an email with your master pin hint."
   },
   "unexpectedError": {
     "message": "An unexpected error has occurred."
@@ -1002,7 +1002,7 @@
     }
   },
   "invalidMasterPassword": {
-    "message": "Invalid master password"
+    "message": "Invalid master pin"
   },
   "invalidFilePassword": {
     "message": "Invalid file password, please use the password you entered when you created the export file."
@@ -1268,7 +1268,7 @@
     "message": "This password will be used to export and import this file"
   },
   "confirmMasterPassword": {
-    "message": "Confirm master password"
+    "message": "Confirm master pin"
   },
   "confirmFormat": {
     "message": "Confirm format"
@@ -1280,7 +1280,7 @@
     "message": "Confirm file password"
   },
   "accountRestrictedOptionDescription": {
-    "message": "Use your account encryption key, derived from your account's username and Master Password, to encrypt the export and restrict import to only the current SaviVault account."
+    "message": "Use your account encryption key, derived from your account's username and Master pin, to encrypt the export and restrict import to only the current SaviVault account."
   },
   "passwordProtectedOptionDescription": {
     "message": "Set a file password to encrypt the export and import it to any SaviVault account using the password for decryption."
@@ -1405,19 +1405,19 @@
     "message": "Please log back in. If you are using other SaviVault applications log out and back in to those as well."
   },
   "changeMasterPassword": {
-    "message": "Change master password"
+    "message": "Change master pin"
   },
   "masterPasswordChanged": {
-    "message": "Master password saved"
+    "message": "Master pin saved"
   },
   "currentMasterPass": {
-    "message": "Current master password"
+    "message": "Current master pin"
   },
   "newMasterPass": {
-    "message": "New master password"
+    "message": "New master pin"
   },
   "confirmNewMasterPass": {
-    "message": "Confirm new master password"
+    "message": "Confirm new master pin"
   },
   "encKeySettings": {
     "message": "Encryption key settings"
@@ -1429,7 +1429,7 @@
     "message": "KDF iterations"
   },
   "kdfIterationsDesc": {
-    "message": "Higher KDF iterations can help protect your master password from being brute forced by an attacker. We recommend a value of $VALUE$ or more.",
+    "message": "Higher KDF iterations can help protect your master pin from being brute forced by an attacker. We recommend a value of $VALUE$ or more.",
     "placeholders": {
       "value": {
         "content": "$1",
@@ -1457,7 +1457,7 @@
     "message": "KDF parallelism"
   },
   "argon2Desc": {
-    "message": "Higher KDF iterations, memory, and parallelism can help protect your master password from being brute forced by an attacker."
+    "message": "Higher KDF iterations, memory, and parallelism can help protect your master pin from being brute forced by an attacker."
   },
   "changeKdf": {
     "message": "Change KDF"
@@ -1785,7 +1785,7 @@
     "message": "This two-step login provider is active on your account."
   },
   "twoStepLoginAuthDesc": {
-    "message": "Enter your master password to modify two-step login settings."
+    "message": "Enter your master pin to modify two-step login settings."
   },
   "twoStepAuthenticatorInstructionPrefix": {
     "message": "Download an authenticator app such as"
@@ -3221,7 +3221,7 @@
     "placeholders": {
       "id": {
         "content": "$1",
-        "example": "Master Password"
+        "example": "Master pin"
       }
     }
   },
@@ -3547,7 +3547,7 @@
     "message": "You've been invited to join the organization listed above. To accept the invitation, you need to log in or create a new SaviVault account."
   },
   "finishJoiningThisOrganizationBySettingAMasterPassword": {
-    "message": "Finish joining this organization by setting a master password."
+    "message": "Finish joining this organization by setting a master pin."
   },
   "inviteAccepted": {
     "message": "Invitation accepted"
@@ -3607,7 +3607,7 @@
     "message": "Delete organization"
   },
   "deletingOrganizationContentWarning": {
-    "message": "Enter the master password to confirm deletion of $ORGANIZATION$ and all associated data. Vault data in $ORGANIZATION$ includes:",
+    "message": "Enter the master pin to confirm deletion of $ORGANIZATION$ and all associated data. Vault data in $ORGANIZATION$ includes:",
     "placeholders": {
       "organization": {
         "content": "$1",
@@ -3871,7 +3871,7 @@
     "message": "Update encryption key"
   },
   "updateEncryptionSchemeDesc": {
-    "message": "We've changed the encryption scheme to provide better security. Update your encryption key now by entering your master password below."
+    "message": "We've changed the encryption scheme to provide better security. Update your encryption key now by entering your master pin below."
   },
   "updateEncryptionKeyWarning": {
     "message": "After updating your encryption key, you are required to log out and back in to all SaviVault applications that you are currently using (such as the mobile app or browser extensions). Failure to log out and back in (which downloads your new encryption key) may result in data corruption. We will attempt to log you out automatically, however, it may be delayed."
@@ -4028,7 +4028,7 @@
     "description": "ex. A very weak password. Scale: Very Weak -> Weak -> Good -> Strong"
   },
   "weakMasterPassword": {
-    "message": "Weak master password"
+    "message": "Weak master pin"
   },
   "weakMasterPasswordDesc": {
     "message": "Weak password identified. Use a strong password to protect your account. Are you sure you want to use a weak password?"
@@ -4118,10 +4118,10 @@
     "message": "Clone"
   },
   "masterPassPolicyTitle": {
-    "message": "Master password requirements"
+    "message": "Master pin requirements"
   },
   "masterPassPolicyDesc": {
-    "message": "Set requirements for master password strength."
+    "message": "Set requirements for master pin strength."
   },
   "twoStepLoginPolicyTitle": {
     "message": "Require two-step login"
@@ -4142,7 +4142,7 @@
     "message": "One or more organization policies are affecting your generator settings."
   },
   "masterPasswordPolicyInEffect": {
-    "message": "One or more organization policies require your master password to meet the following requirements:"
+    "message": "One or more organization policies require your master pin to meet the following requirements:"
   },
   "policyInEffectMinComplexity": {
     "message": "Minimum complexity score of $SCORE$",
@@ -4181,7 +4181,7 @@
     }
   },
   "masterPasswordPolicyRequirementsNotMet": {
-    "message": "Your new master password does not meet the policy requirements."
+    "message": "Your new master pin does not meet the policy requirements."
   },
   "minimumNumberOfWords": {
     "message": "Minimum number of words"
@@ -4197,7 +4197,7 @@
     "message": "Vault timeout action"
   },
   "vaultTimeoutActionLockDesc": {
-    "message": "Master password or other unlock method is required to access your vault again."
+    "message": "Master pin or other unlock method is required to access your vault again."
   },
   "vaultTimeoutActionLogOutDesc": {
     "message": "Re-authentication is required to access your vault again."
@@ -4292,7 +4292,7 @@
     "message": "Tax information updated."
   },
   "setMasterPassword": {
-    "message": "Set master password"
+    "message": "Set master pin"
   },
   "identifier": {
     "message": "Identifier"
@@ -4587,7 +4587,7 @@
     "message": "Takeover"
   },
   "takeoverDesc": {
-    "message": "Can reset your account with a new master password."
+    "message": "Can reset your account with a new master pin."
   },
   "waitTime": {
     "message": "Wait time"
@@ -4740,7 +4740,7 @@
     "placeholders": {
       "id": {
         "content": "$1",
-        "example": "Master Password"
+        "example": "Master pin"
       }
     }
   },
@@ -5054,7 +5054,7 @@
     }
   },
   "eventAdminPasswordReset": {
-    "message": "Master password reset for user $ID$.",
+    "message": "Master pin reset for user $ID$.",
     "placeholders": {
       "id": {
         "content": "$1",
@@ -5096,22 +5096,22 @@
     "message": "this user"
   },
   "resetPasswordMasterPasswordPolicyInEffect": {
-    "message": "One or more organization policies require the master password to meet the following requirements:"
+    "message": "One or more organization policies require the master pin to meet the following requirements:"
   },
   "resetPasswordSuccess": {
     "message": "Password reset success!"
   },
   "resetPasswordEnrollmentWarning": {
-    "message": "Enrollment will allow organization administrators to change your master password"
+    "message": "Enrollment will allow organization administrators to change your master pin"
   },
   "accountRecoveryPolicy": {
     "message": "Account recovery administration"
   },
   "accountRecoveryPolicyDesc": {
-    "message": "Based on the encryption method, recover accounts when master passwords or trusted devices are forgotten or lost."
+    "message": "Based on the encryption method, recover accounts when master pins or trusted devices are forgotten or lost."
   },
   "accountRecoveryPolicyWarning": {
-    "message": "Existing accounts with master passwords will require members to self-enroll before administrators can recover their accounts. Automatic enrollment will turn on account recovery for new members."
+    "message": "Existing accounts with master pins will require members to self-enroll before administrators can recover their accounts. Automatic enrollment will turn on account recovery for new members."
   },
   "accountRecoverySingleOrgRequirementDesc": {
     "message": "The single organization Enterprise policy must be turned on before activating this policy."
@@ -5123,7 +5123,7 @@
     "message": "Require new members to be enrolled automatically"
   },
   "resetPasswordAutoEnrollInviteWarning": {
-    "message": "This organization has an Enterprise policy that will automatically enroll you in password reset. Enrollment will allow organization administrators to change your master password."
+    "message": "This organization has an Enterprise policy that will automatically enroll you in password reset. Enrollment will allow organization administrators to change your master pin."
   },
   "resetPasswordOrgKeysError": {
     "message": "Organization keys response is null"
@@ -5138,13 +5138,13 @@
     "message": "Items that have been in trash for a while will be automatically deleted."
   },
   "passwordPrompt": {
-    "message": "Master password re-prompt"
+    "message": "Master pin re-prompt"
   },
   "passwordConfirmation": {
-    "message": "Master password confirmation"
+    "message": "Master pin confirmation"
   },
   "passwordConfirmationDesc": {
-    "message": "This action is protected. To continue, please re-enter your master password to verify your identity."
+    "message": "This action is protected. To continue, please re-enter your master pin to verify your identity."
   },
   "reinviteSelected": {
     "message": "Resend invitations"
@@ -5350,19 +5350,19 @@
     "message": "Add"
   },
   "updatedMasterPassword": {
-    "message": "Master password saved"
+    "message": "Master pin saved"
   },
   "updateMasterPassword": {
-    "message": "Update master password"
+    "message": "Update master pin"
   },
   "updateMasterPasswordWarning": {
-    "message": "Your master password was recently changed by an administrator in your organization. In order to access the vault, you must update your master password now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
+    "message": "Your master pin was recently changed by an administrator in your organization. In order to access the vault, you must update your master pin now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
   },
   "masterPasswordInvalidWarning": {
-    "message": "Your master password does not meet the policy requirements of this organization. In order to join the organization, you must update your master password now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
+    "message": "Your master pin does not meet the policy requirements of this organization. In order to join the organization, you must update your master pin now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
   },
   "updateWeakMasterPasswordWarning": {
-    "message": "Your master password does not meet one or more of your organization policies. In order to access the vault, you must update your master password now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
+    "message": "Your master pin does not meet one or more of your organization policies. In order to access the vault, you must update your master pin now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
   },
   "automaticAppLogin": {
     "message": "Automatically log in users for allowed applications"
@@ -5377,7 +5377,7 @@
     "message": "Enter your identity provider host URL. Enter multiple URLs by separating with a comma."
   },
   "tdeDisabledMasterPasswordRequired": {
-    "message": "Your organization has updated your decryption options. Please set a master password to access your vault."
+    "message": "Your organization has updated your decryption options. Please set a master pin to access your vault."
   },
   "maximumVaultTimeout": {
     "message": "Vault timeout"
@@ -5737,7 +5737,7 @@
     "message": "Invalid verification code"
   },
   "convertOrganizationEncryptionDesc": {
-    "message": "$ORGANIZATION$ is using SSO with a self-hosted key server. A master password is no longer required to log in for members of this organization.",
+    "message": "$ORGANIZATION$ is using SSO with a self-hosted key server. A master pin is no longer required to log in for members of this organization.",
     "placeholders": {
       "organization": {
         "content": "$1",
@@ -5749,10 +5749,10 @@
     "message": "Leave organization"
   },
   "removeMasterPassword": {
-    "message": "Remove master password"
+    "message": "Remove master pin"
   },
   "removedMasterPassword": {
-    "message": "Master password removed"
+    "message": "Master pin removed"
   },
   "allowSso": {
     "message": "Allow SSO authentication"
@@ -5776,22 +5776,22 @@
     "message": "Member decryption options"
   },
   "memberDecryptionPassDesc": {
-    "message": "Once authenticated, members will decrypt vault data using their master passwords."
+    "message": "Once authenticated, members will decrypt vault data using their master pins."
   },
   "keyConnector": {
     "message": "Key Connector"
   },
   "memberDecryptionKeyConnectorDescStart": {
-    "message": "Connect login with SSO to your self-hosted decryption key server. Using this option, members won’t need to use their master passwords to decrypt vault data. The",
-    "description": "This will be used as part of a larger sentence, broken up to include links. The full sentence will read 'Connect login with SSO to your self-hosted decryption key server. Using this option, members won’t need to use their master passwords to decrypt vault data. The require SSO authentication and single organization policies are required to set up Key Connector decryption. Contact SaviVault Support for set up assistance.'"
+    "message": "Connect login with SSO to your self-hosted decryption key server. Using this option, members won’t need to use their master pins to decrypt vault data. The",
+    "description": "This will be used as part of a larger sentence, broken up to include links. The full sentence will read 'Connect login with SSO to your self-hosted decryption key server. Using this option, members won’t need to use their master pins to decrypt vault data. The require SSO authentication and single organization policies are required to set up Key Connector decryption. Contact SaviVault Support for set up assistance.'"
   },
   "memberDecryptionKeyConnectorDescLink": {
     "message": "require SSO authentication and single organization policies",
-    "description": "This will be used as part of a larger sentence, broken up to include links. The full sentence will read 'Connect login with SSO to your self-hosted decryption key server. Using this option, members won’t need to use their master passwords to decrypt vault data. The require SSO authentication and single organization policies are required to set up Key Connector decryption. Contact SaviVault Support for set up assistance.'"
+    "description": "This will be used as part of a larger sentence, broken up to include links. The full sentence will read 'Connect login with SSO to your self-hosted decryption key server. Using this option, members won’t need to use their master pins to decrypt vault data. The require SSO authentication and single organization policies are required to set up Key Connector decryption. Contact SaviVault Support for set up assistance.'"
   },
   "memberDecryptionKeyConnectorDescEnd": {
     "message": "are required to set up Key Connector decryption. Contact SaviVault Support for set up assistance.",
-    "description": "This will be used as part of a larger sentence, broken up to include links. The full sentence will read 'Connect login with SSO to your self-hosted decryption key server. Using this option, members won’t need to use their master passwords to decrypt vault data. The require SSO authentication and single organization policies are required to set up Key Connector decryption. Contact SaviVault Support for set up assistance.'"
+    "description": "This will be used as part of a larger sentence, broken up to include links. The full sentence will read 'Connect login with SSO to your self-hosted decryption key server. Using this option, members won’t need to use their master pins to decrypt vault data. The require SSO authentication and single organization policies are required to set up Key Connector decryption. Contact SaviVault Support for set up assistance.'"
   },
   "keyConnectorPolicyRestriction": {
     "message": "\"Login with SSO and Key Connector Decryption\" is activated. This policy will only apply to owners and admins."
@@ -5809,7 +5809,7 @@
     "message": "Key Connector deactivated"
   },
   "keyConnectorWarning": {
-    "message": "Once members begin using Key Connector, your organization cannot revert to master password decryption. Proceed only if you are comfortable deploying and managing a key server."
+    "message": "Once members begin using Key Connector, your organization cannot revert to master pin decryption. Proceed only if you are comfortable deploying and managing a key server."
   },
   "migratedKeyConnector": {
     "message": "Migrated to Key Connector"
@@ -6032,7 +6032,7 @@
     "message": "Access denied. You do not have permission to view this page."
   },
   "masterPassword": {
-    "message": "Master password"
+    "message": "Master pin"
   },
   "security": {
     "message": "Security"
@@ -7164,7 +7164,7 @@
     "message": "Need a different method?"
   },
   "useMasterPassword": {
-    "message": "Use master password"
+    "message": "Use master pin"
   },
   "usePin": {
     "message": "Use PIN"
@@ -7519,13 +7519,13 @@
     "message": "Check known data breaches for this password"
   },
   "exposedMasterPassword": {
-    "message": "Exposed Master Password"
+    "message": "Exposed Master pin"
   },
   "exposedMasterPasswordDesc": {
     "message": "Password found in a data breach. Use a unique password to protect your account. Are you sure you want to use an exposed password?"
   },
   "weakAndExposedMasterPassword": {
-    "message": "Weak and Exposed Master Password"
+    "message": "Weak and Exposed Master pin"
   },
   "weakAndBreachedMasterPasswordDesc": {
     "message": "Weak password identified and found in a data breach. Use a strong and unique password to protect your account. Are you sure you want to use this password?"
@@ -7540,7 +7540,7 @@
     }
   },
   "masterPasswordMinimumlength": {
-    "message": "Master password must be at least $LENGTH$ characters long.",
+    "message": "Master pin must be at least $LENGTH$ characters long.",
     "placeholders": {
       "length": {
         "content": "$1",
@@ -7595,7 +7595,7 @@
     "message": "Request admin approval"
   },
   "approveWithMasterPassword": {
-    "message": "Approve with master password"
+    "message": "Approve with master pin"
   },
   "trustedDeviceEncryption": {
     "message": "Trusted device encryption"
@@ -7632,11 +7632,11 @@
     "description": "This will be used as part of a larger sentence, broken up to include links. The full sentence will read 'Once authenticated, members will decrypt vault data using a key stored on their device. The single organization policy, SSO required policy, and account recovery administration policy with automatic enrollment will turn on when this option is used.'"
   },
   "orgPermissionsUpdatedMustSetPassword": {
-    "message": "Your organization permissions were updated, requiring you to set a master password.",
+    "message": "Your organization permissions were updated, requiring you to set a master pin.",
     "description": "Used as a card title description on the set password page to explain why the user is there"
   },
   "orgRequiresYouToSetPassword": {
-    "message": "Your organization requires you to set a master password.",
+    "message": "Your organization requires you to set a master pin.",
     "description": "Used as a card title description on the set password page to explain why the user is there"
   },
   "notFound": {
@@ -7713,10 +7713,10 @@
     "message": "Login request approved"
   },
   "removeOrgUserNoMasterPasswordTitle": {
-    "message": "Account does not have master password"
+    "message": "Account does not have master pin"
   },
   "removeOrgUserNoMasterPasswordDesc": {
-    "message": "Removing $USER$ without setting a master password for them may restrict access to their full account. Are you sure you want to continue?",
+    "message": "Removing $USER$ without setting a master pin for them may restrict access to their full account. Are you sure you want to continue?",
     "placeholders": {
       "user": {
         "content": "$1",
@@ -7725,10 +7725,10 @@
     }
   },
   "noMasterPassword": {
-    "message": "No master password"
+    "message": "No master pin"
   },
   "removeMembersWithoutMasterPasswordWarning": {
-    "message": "Removing members who do not have master passwords without setting one for them may restrict access to their full account."
+    "message": "Removing members who do not have master pins without setting one for them may restrict access to their full account."
   },
   "approvedAuthRequest": {
     "message": "Approved device for $ID$.",
@@ -7752,7 +7752,7 @@
     "message": "Requested device approval."
   },
   "tdeOffboardingPasswordSet": {
-    "message": "User set a master password during TDE offboarding."
+    "message": "User set a master pin during TDE offboarding."
   },
   "startYour7DayFreeTrialOfBitwardenFor": {
     "message": "Start your 7-Day free trial of SaviVault for $ORG$",
@@ -8411,7 +8411,7 @@
     "message": "Delete provider"
   },
   "deleteProviderConfirmation": {
-    "message": "Deleting a provider is permanent and irreversible. Enter your master password to confirm the deletion of the provider and all associated data."
+    "message": "Deleting a provider is permanent and irreversible. Enter your master pin to confirm the deletion of the provider and all associated data."
   },
   "deleteProviderName": {
     "message": "Cannot delete $ID$",
@@ -8723,7 +8723,7 @@
     "message": "Audit organization member access across groups, collections, and collection items. The CSV export provides a detailed breakdown per member, including information on collection permissions and account configurations."
   },
   "higherKDFIterations": {
-    "message": "Higher KDF iterations can help protect your master password from being brute forced by an attacker."
+    "message": "Higher KDF iterations can help protect your master pin from being brute forced by an attacker."
   },
   "incrementsOf100,000": {
     "message": "increments of 100,000"

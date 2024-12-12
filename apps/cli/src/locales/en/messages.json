@@ -36,10 +36,10 @@
     "message": "Invalid verification code."
   },
   "masterPassRequired": {
-    "message": "Master password is required."
+    "message": "Master pin is required."
   },
   "invalidMasterPassword": {
-    "message": "Invalid master password."
+    "message": "Invalid master pin."
   },
   "sessionTimeout": {
     "message": "Your session has timed out. Please go back and try logging in again."
